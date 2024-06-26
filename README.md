@@ -1,1 +1,4 @@
 # LLM-Function-calling
+This project focuses on leveraging Language Model (LLM) fine-tuning, including quantization techniques, to automate function calls using large language models. Specifically, the OpenHermes-2.5-Mistral-7B-GPTQ variant is employed for this purpose. The GPTQ version extends the capabilities of the original GPT-4 architecture by integrating enhanced quality improvements and optimizations, particularly suited for generating queries and responses in natural language, making it ideal for automating function calls.
+
+OpenHermes-2.5-Mistral-7B is a variant known for its robustness and high performance in various natural language understanding and generation tasks. The GPTQ implementation uses 8-bit quantization techniques in place of 32-bit precision, significantly reducing memory requirements and improving inference speed without compromising model performance.
